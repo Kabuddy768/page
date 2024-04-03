@@ -21,3 +21,4 @@ seaborn==0.12.2
 statsmodels==0.14.0
 chardet==4.0.0
 selenium==4.17.2
+firebase-admin==6.4.0
