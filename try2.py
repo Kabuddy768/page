@@ -13,8 +13,9 @@ except ValueError as e:
 
 
 # Initialize Google OAuth2 client
-client_id = st.secrets["client_id"]
-client_secret = st.secrets["client_secret"]
+client_id ="14450828564-nrhsis8u1vqaclhut85ahdf0h10khn43.apps.googleusercontent.com"
+client_secret ="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"
+
 redirect_uri = "https://kabuddy768.github.io/new_project/"  # Your redirect URI
 
 client = GoogleOAuth2(client_id=client_id, client_secret=client_secret)
